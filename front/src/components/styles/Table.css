@@ -1,0 +1,23 @@
+table{
+    width: 600px;
+    height: 500px;
+}
+
+table, th, td {
+    border-bottom:1px solid black;
+    width: 50%;
+    height: 100px;
+    color: black;
+    text-align: center;
+  }
+
+th{
+    background-color: rgba(49, 49, 108, 0.847);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50px;
+    color: white;
+}
+
+td{
+    height: 50px;
+}

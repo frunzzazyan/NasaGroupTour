@@ -1,0 +1,40 @@
+.obj{
+    background-color: white;
+    &>h4{
+        color: black;
+        font-family:cursive;
+    }
+}
+
+.inputs{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    font-family:cursive;
+    justify-content: center;
+    &>.input{
+        width: 500px;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        background-color: rgba(0, 0, 0, 0.074);
+        &>select{
+            width: 80%;
+            height: 30px;
+            background-color: rgba(240, 248, 255, 0);
+            color: black;
+            font-size: 20px;
+            font-family: cursive;
+        }
+        &>textarea{
+            height: 300px;
+            width: 90%;
+            background-color: white;
+            color: black;
+            font-size: 20px;
+        }
+    }
+}
